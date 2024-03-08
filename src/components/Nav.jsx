@@ -1,10 +1,12 @@
-import './App.css';
-
+import '../App.css';
+import { NavLink } from 'react-router-dom';
 function Nav() {
   return (
-    <div className="Nav">
-      
-    </div>
+    <nav className="Nav">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/cats">Cats</NavLink>
+      <NavLink to="/add-cat">Add New Cat</NavLink>
+    </nav>
   );
 }
 
