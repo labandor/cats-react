@@ -38,7 +38,7 @@ export const editCat = async (id, catData) => {
 
 export const deleteCat = async (id) => {
     try {
-        const response = await api.delete(`.cats.${id}`);
+        const response = await api.delete(`/cats.${id}`);
         return response.data;
     } catch (error) {
         console.error("Error Deleting Cat: ", error);

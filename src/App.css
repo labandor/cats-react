@@ -1,0 +1,18 @@
+.cat-images {
+    height: 150px;
+    width: 150px;
+}
+
+.home {
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+.cats-container {
+    display: flex;
+    gap: 20px;
+}
+
+.App {
+    text-align: center;
+}
