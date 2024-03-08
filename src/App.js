@@ -6,6 +6,7 @@ import CatCreate from "./screens/CatCreate.jsx";
 import CatEdit from "./screens/CatEdit.jsx";
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
