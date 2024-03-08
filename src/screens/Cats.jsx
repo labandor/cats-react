@@ -21,7 +21,7 @@ function Cats() {
       <div>
         {
           cats.map((cat) =>(
-            <Cat cat={cat}/>
+            <Cat cat={cat} key={cat.id}/>
           ))
         }
       </div>
